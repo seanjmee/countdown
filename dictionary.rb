@@ -22,7 +22,6 @@ def match_words (user_input, d)
 			result_set << v
 		end
 	end
-
 	puts "Matches:"
 	puts result_set
 end
