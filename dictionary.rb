@@ -23,6 +23,7 @@ def match_words (user_input, d)
 		end
 	end
 
+	puts "Matches:"
 	puts result_set
 end
 
