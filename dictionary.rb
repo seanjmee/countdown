@@ -27,7 +27,7 @@ def match_words (user_input, d)
 end
 
 def display_message
-	puts "This appication takes a string of letters from the standard input, and returns a list of words which can be formed from those letters..."
+	puts "This application takes a string of letters from the standard input, and returns a list of words which can be formed from those letters..."
 	puts "Like Countdown..."
 	puts "Please enter the string to match:"
 	STDOUT.flush
@@ -36,7 +36,7 @@ end
 # entry point for main program
 
 # create the ordered_word_list from a word list file
-d = dictionary (File.open('words.txt'))
+d = dictionary (File.open('words2.txt'))
 
 #get user input to match against
 
