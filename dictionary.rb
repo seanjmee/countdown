@@ -6,7 +6,7 @@ def dictionary (wordlist)
 							ordered_word_list[w.chomp.chars.sort.join.to_s] = w.chomp.to_s 	 	
 							end
 		puts "Dictionary successfully created"
-		return ordered_word_list
+		ordered_word_list
 end
 
 def match_words (user_input, d)
